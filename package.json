@@ -1,0 +1,12 @@
+{
+  "name": "testable-playwright-monitor-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Create a Testable monitor from a Playwright Test project and report its first check",
+  "scripts": {
+    "test": "playwright test",
+    "monitor": "bash scripts/create-monitor.sh"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "@playwright/test": "1.58.2" }
+}
